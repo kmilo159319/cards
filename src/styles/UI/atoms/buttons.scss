@@ -1,0 +1,37 @@
+.cbtn{
+   border-radius: 50px !important;
+   border: 2px solid rgba(146,76,240,255) !important;
+   height: 4em;
+   width: 90%;
+   padding: 18px !important;
+   color: white !important;
+}
+
+
+.colortext{
+   color: rgba(146,76,240,255) !important;
+}
+
+.card2{
+   position: relative;
+   border: 1px solid rgba(146,76,240,255)!important;
+   transition: .2s;
+   
+}
+
+.card2:hover {
+   cursor: pointer;
+   background-color: rgba(155,81,255,255) !important;
+   border: 2px solid rgba(155,81,255,255)  !important;
+   transform: translateY(3px);
+}
+
+.card2:hover  .cbtn{
+   border: 2px solid white !important;
+}
+
+.card2:hover  .colortext{
+   color: white !important;
+}
+
+
